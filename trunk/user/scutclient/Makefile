@@ -1,6 +1,18 @@
 # https://github.com/hanwckf/scutclient.git
+# https://github.com/scutclient/scutclient.git
+
+# 3.1.2
 SRC_NAME := scutclient-upstream
 SRC_FILE := scutclient-a58996875c61d0cdf8ec435057befc1c87bd6863
+
+# 3.0
+# SRC_NAME := scutclient-3.0
+# SRC_FILE := scutclient-3.0
+
+# 3.1.3
+# SRC_NAME := scutclient-3.1.3
+# SRC_FILE := scutclient-3.1.3
+
 THISDIR = $(shell pwd)
 
 all: extract_test config_test
